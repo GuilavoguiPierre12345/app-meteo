@@ -1,0 +1,29 @@
+body {
+    background-image: url('bg4.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #223d3c;
+    margin: 0;
+    padding: 0;
+}
+
+.appBox {
+    height: 90vh !important;
+    background-color: #EEF0E5;
+    opacity: .8;
+}
+input::placeholder {
+    font-size: 24px;
+    text-transform: capitalize;
+}
+
+input {
+    font-size: 28px !important;
+    font-weight: bold !important;
+    text-transform: uppercase;
+}
+
+.weather-details i {
+    font-size: 60px;
+}
